@@ -1,1 +1,0 @@
-# NAGC-project
