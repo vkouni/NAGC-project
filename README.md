@@ -23,14 +23,22 @@ Datasets
 
 .py files
 
-• build_graph : Takes as input the graph data in .cite or .content format and creates matrices S (adjacency matrix) and X (node-attribute matrix). Also, it saves the groundtruth node to cluster membership.
-• init_kmeans : Defines the k-means ++ method.
-• init_agglomerative : Defines the agglomerative method.
-• init_spectral : Defines the spectral method.
-• NAGC_class : Optimizes the algorithm with the defined updating rules (&PU learning - matrix completion). Also, in this part we include the definition of the transition sigmoid function.
-• NAGC_ReLU : Optimizes the algorithm with the defined updating rules (&PU learning - matrix completion). Also, in this part we include the definition of the transition RelU function.
-• VU_init : Initialises the matrices U, and V with regard to the selected initialization method as it is defiined in init_kmeans, init_agglomerative, init_spectral and init_dbscan.
-• evaluate :Defines the evaluation metrics ARI, entropy, modularity.
-• main : Executes the algorithm and provides the metric results.
+• build_graph: Takes as input the graph data in .cite or .content format and creates matrices S (adjacency matrix) and X (node-attribute matrix). Also, it saves the groundtruth node to cluster membership.
+
+• init_kmeans: Defines the k-means ++ method.
+
+• init_agglomerative: Defines the agglomerative method.
+
+• init_spectral: Defines the spectral method.
+
+• NAGC_class: Optimizes the algorithm with the defined updating rules (&PU learning - matrix completion). Also, in this part we include the definition of the transition sigmoid function.
+
+• NAGC_ReLU: Optimizes the algorithm with the defined updating rules (&PU learning - matrix completion). Also, in this part we include the definition of the transition RelU function.
+
+• VU_init: Initialises the matrices U, and V with regard to the selected initialization method as it is defiined in init_kmeans, init_agglomerative, init_spectral and init_dbscan.
+
+• evaluate: Defines the evaluation metrics ARI, entropy, modularity.
+
+• main: Executes the algorithm and provides the metric results.
 
 
